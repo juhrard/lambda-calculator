@@ -1,15 +1,22 @@
+html {
+    background: black;
+}
+
 .container {
+    box-sizing: border-box;
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 500px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    padding: 25px;
+    max-height: 800px;
 }
 .display {
     margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 400px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +26,4 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
